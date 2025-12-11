@@ -1,0 +1,30 @@
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(135deg,#42e695,#3bb2b8);
+
+    /* 图标背景 */
+    --vp-home-hero-image-background-image: linear-gradient(135deg,#42e69588,#3bb2b888);
+    --vp-home-hero-image-filter: blur(45px);
+
+    --vp-button-brand-bg: #000;
+    --vp-button-brand-hover-bg: #333;
+    --vp-button-brand-active-bg: #434343;
+
+    --vp-c-brand-1: #42b883;
+    /*--vp-layout-top-height: 64px;*/
+}
+@media (min-width: 640px) {
+    :root {
+        --vp-home-hero-image-filter: blur(56px);
+    }
+}
+
+@media (min-width: 960px) {
+    :root {
+        --vp-home-hero-image-filter: blur(68px);
+    }
+}
+
+html.banner-show {
+    --vp-layout-top-height: 64px;
+}
