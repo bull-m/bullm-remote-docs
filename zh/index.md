@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: brand
       text: 这是什么 ?
-      link: /info/tis
+      link: /guide/info/tis
     - theme: alt
       text: 开始
-      link: /guide/link/start
+      link: /guide/start/start
     - theme: alt
       text: GitHub
-      link: https://github.com/nmcar
+      link: https://github.com/bull-m/bullm-remote
 
 features:
   - title: 🧩 插件生态

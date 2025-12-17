@@ -10,13 +10,18 @@ export const GuideSidebar = {
 function sidebar(): DefaultTheme.SidebarItem[] {
     return [
         {
+            text: '介绍', items: [
+                {text: '梦开始的地方', link: 'info/start'},
+                {text: '这是什么 ?', link: 'info/tis'},
+            ]
+        },
+        {
             text: 'GoGoGo!!!', items: [
                 {text: '开始', link: 'start/start'},
                 {text: '系统架构', link: 'start/process'},
                 {text: '连接', link: 'start/link'},
-                {text: '互联网控制', link: 'start/internet'},
+                // {text: '互联网控制', link: 'start/internet'},
             ]
-
         },
         {
             text: '输入输出', items: [
