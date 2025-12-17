@@ -1,7 +1,6 @@
 import {DefaultTheme, defineAdditionalConfig} from 'vitepress'
 import {GuideSidebar} from "./guide/sidebar";
 import {PluginSidebar} from "./plugin/sidebar";
-import {InfoSidebar} from "./info/sidebar";
 import {RewardSidebar} from "./reward/sidebar";
 
 const zhConfig = defineAdditionalConfig({
@@ -29,7 +28,8 @@ const zhConfig = defineAdditionalConfig({
             }
         },
         outline: {
-            label: '页面导航'
+            label: '页面导航',
+            level: [2, 3]
         },
         docFooter: {
             prev: '上一页',
@@ -63,9 +63,8 @@ const zhConfig = defineAdditionalConfig({
         nav: nav(),
 
         sidebar: {
-            ...InfoSidebar,
-            ...PluginSidebar,
             ...GuideSidebar,
+            ...PluginSidebar,
             ...RewardSidebar
         },
 
@@ -77,7 +76,6 @@ const zhConfig = defineAdditionalConfig({
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        {text: '🤔这是什么 ?', link: '/info/tis', activeMatch: '/info/'},
         {text: '🧭指南', link: '/guide/start/start', activeMatch: '/guide/'},
         {text: '🔌插件', link: '/plugin/start', activeMatch: '/plugin/'},
         {text: '🍨一杯冰淇淋', link: '/reward/make', activeMatch: '/reward/'},
