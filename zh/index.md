@@ -36,7 +36,9 @@ features:
 - **使用TypeScript编写的**
 - **插件系统，即插即用**
 - **跨平台支持**
-- ...
+- **多种底盘的支持**
+- **云台支持**
+- **各种的自定义输出**
 
 
 ## 仓库 🔗
@@ -44,9 +46,10 @@ features:
 **它的每一个部分都是开源的！** 你可以尽情地“玩耍”，也非常期待你能贡献你的代码和想法。
 
 - [bull-m/bullm-remote](https://github.com/bull-m/bullm-remote) - 客户端
-- [bull-m/bullm-remote-esp](https://github.com/bull-m/bullm-remote-esp) - 主板固件
 - [bull-m/bullm-remote-ap-web](https://github.com/bull-m/bullm-remote-ap-web) - 热点配网web
-- [立创开源硬件平台](https://oshwhub.com/bullm) - 原理图/PCB (正在整理)
+- [bull-m/bullm-remote-esp](https://github.com/bull-m/bullm-remote-esp) - 主板固件
+- [bull-m/bullm-remote-docs](https://github.com/bull-m/bullm-remote-docs) - 文档
+- [oshwhub.com/bullm/bullm-remote-main](https://oshwhub.com/bullm/bullm-remote-main) - 主控PCB设计
 
 ## 致敬 🎉
 

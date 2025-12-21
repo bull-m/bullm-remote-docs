@@ -2,7 +2,7 @@
 
 ## 硬件准备
 
-目前我们准备了一种样式的主控板，我们将其开源至了[立创开源硬件平台](https://oshwhub.com/bullm)
+目前我们准备了一种样式的主控板，我们将其开源至了立创开源硬件平台[https://oshwhub.com/bullm/bullm-remote-main](https://oshwhub.com/bullm/bullm-remote-main)
 
 **主控板:**
 
