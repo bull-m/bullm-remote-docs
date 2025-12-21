@@ -1,3 +1,3 @@
-# 一起玩
+# 交流群
 
-QQ群：[920700546](https://qm.qq.com/q/GHi6LZwamk)
+QQ交流群：[920700546](https://qm.qq.com/q/GHi6LZwamk)
