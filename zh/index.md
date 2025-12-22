@@ -33,13 +33,18 @@ features:
 
 ![license](https://img.shields.io/github/license/bull-m/BULLM_ExtendModule)
 
-- **使用TypeScript编写的**
-- **插件系统，即插即用**
-- **跨平台支持**
-- **多种底盘的支持**
+- **插件系统**
+- **流畅的FPV画面**
+- **多客户端的支持**(Windows/Android已就绪)
+- **支持键盘控制**
+- **支持手柄控制**
+- **支持通过I2C连接扩展模块**
+- **支持多种底盘样式** (麦克纳姆轮、差速转弯)
+- **支持动态定义引脚功能** (PWM、舵机、电平)
+- **支持组合功能** (组合多个引脚实现控制L298N、L9110S等驱动芯片)
+- **支持通过I2C连接0.91寸屏幕显示一些状态**
 - **云台支持**
-- **各种的自定义输出**
-
+- **...**
 
 ## 仓库 🔗
 
@@ -67,5 +72,5 @@ features:
 
 ## 加入我们 💬
 
-欢迎提Issues：[bull-m/bullm-remote/issues](https://github.com/bull-m/bullm-remote/issues)  
-QQ群：[920700546](https://qm.qq.com/q/GHi6LZwamk)
+提ISSUES [bull-m/bullm-remote/issues](https://github.com/bull-m/bullm-remote/issues)  
+QQ交流群：[920700546](https://qm.qq.com/q/GHi6LZwamk)
