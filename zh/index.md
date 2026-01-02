@@ -58,12 +58,12 @@ features:
 
 ## 部分演示 🚀
 
-<img src="./assets/car/1.jpg" alt="car1" width="400px" />
+<img src="/assets/car/1.jpg" alt="car1" width="400px" />
 <br>
-<img src="./assets/car/2.jpg" alt="car2" width="400px" />
+<img src="/assets/car/2.jpg" alt="car2" width="400px" />
 
 **麦克纳姆轮**
-<img src="./assets/car/3.jpg" alt="car3" width="400px" />
+<img src="/assets/car/3.jpg" alt="car3" width="400px" />
 
 ## 致敬 🎉
 
