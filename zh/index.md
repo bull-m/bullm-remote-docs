@@ -23,7 +23,7 @@ features:
   - title: 🧩 插件生态
     details: 可扩展的插件系统，可轻松实现各种功能扩展，提供控制方法，可轻松定制开发你需要的功能
   - title: 🏎️ 流畅的FPV画面
-    details: UDP通讯加持，1280x720px@20fps，端到端延迟低于50ms，丝滑如德芙巧克力～"
+    details: UDP通讯加持，1280x720px@20fps，端到端延迟低于50ms，丝滑如德芙巧克力～
   - title: 🌍 多客户端的支持
     details: Windows/Android已就绪，Linux/Mac/iOS正在快马加鞭赶来🏃‍♂️
 ---
@@ -31,7 +31,7 @@ features:
 <br>
 <br>
 
-![license](https://img.shields.io/github/license/bull-m/BULLM_ExtendModule)
+![license](https://img.shields.io/github/license/bull-m/bullm-remote)
 
 - **插件系统**
 - **流畅的FPV画面**
@@ -55,6 +55,15 @@ features:
 - [bull-m/bullm-remote-esp](https://github.com/bull-m/bullm-remote-esp) - 主板固件
 - [bull-m/bullm-remote-docs](https://github.com/bull-m/bullm-remote-docs) - 文档
 - [oshwhub.com/bullm/bullm-remote-main](https://oshwhub.com/bullm/bullm-remote-main) - 主控PCB设计
+
+## 部分演示 🚀
+
+<img src="./assets/car/1.jpg" alt="car1" width="400px" />
+<br>
+<img src="./assets/car/2.jpg" alt="car2" width="400px" />
+
+**麦克纳姆轮**
+<img src="./assets/car/3.jpg" alt="car3" width="400px" />
 
 ## 致敬 🎉
 
