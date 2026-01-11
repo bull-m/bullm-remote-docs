@@ -30,7 +30,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
                 {text: 'PWM', link: 'io/pwm'},
                 {text: '电平', link: 'io/digital'},
                 {text: '舵机', link: 'io/servo'},
-                {text: '组合', link: 'io/group'},
+                {text: '电机驱动（组合）', link: 'io/group'},
                 {text: '步进电机', link: 'io/stepper'},
             ]
         },
