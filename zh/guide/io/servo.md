@@ -17,7 +17,7 @@
 
 这里将`舵机的控制引脚`连接到`IO18`引脚
 
-[]
+<img src="./assets/servo/line.jpg" width="450">
 
 
 ### 配置示例
