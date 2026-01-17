@@ -68,14 +68,14 @@ outline: [2, 6]
 - 8路的电机正反转输出，电源2.5v-12v
 - [了解更多](https://doc.bullm.cn/docs/extend-motor/info/start)
 
-<img src="./assets/extend-motor.png" width="400" >
+<img src="./assets/extend/extend-motor.png" width="400" >
 
 ### 4路电机驱动-大功率
 
 - 4路的电机正反转输出，电源6v-28v；
 - [了解更多](https://doc.bullm.cn/docs/extend-motor-power/info/start)
 
-<img src="./assets/extend-motor-power.png" width="400" >
+<img src="./assets/extend/extend-motor-power.png" width="400" >
 
 ### 8路继电器
 
@@ -83,4 +83,4 @@ outline: [2, 6]
 - 8路可自定义输入或输出电平的io口
 - [了解更多](https://doc.bullm.cn/docs/extend-relay/info/start)
 
-<img src="./assets/extend-relay.png" width="400" >
+<img src="./assets/extend/extend-relay.png" width="400" >
