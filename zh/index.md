@@ -10,14 +10,14 @@ hero:
     alt: bullm logo
   actions:
     - theme: brand
-      text: 这是什么 ?
-      link: /guide/info/tis
-    - theme: alt
       text: 开始
       link: /guide/start/start
     - theme: alt
       text: GitHub
       link: https://github.com/bull-m/bullm-remote
+    - theme: alt
+      text: 这是什么 ?
+      link: /guide/info/tis
 
 features:
   - title: 🧩 插件生态

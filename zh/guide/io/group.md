@@ -5,6 +5,53 @@
 > **数值范围：0 ~ 255**  
 > **id前缀：`g:`**
 
+
+## 示例
+
+下面将演示连接一个非常常见的L298N电机驱动，
+
+<img src="./assets/group/l298n.jpg" width="300">
+
+### 硬件连接
+
+- 把L298N驱动模块和主控连接起来
+  - IN1 -> 扩展引脚11; 
+  - IN2 -> 扩展引脚10; 
+  - EN -> 扩展引脚12;
+
+<img src="./assets/group/line.jpg" width="450">
+
+### 配置示例
+
+1. 控制1路L298N，我们需要先声明 **两个电平输出引脚** 和 **一个PWM输出引脚**  
+2. 参考[电平输出](./digital)和[PWM输出](./pwm)
+
+<img src="./assets/group/select-digital.png" width="450">
+<img src="./assets/group/select-pwm.png" width="450">
+
+3. 在设置中点击**添加电机驱动**，为他起个**名称**，并选择类型为`2引脚控制方向 1调速`
+4. 引脚选择我们刚刚声明的电平输出引脚和PWM输出引脚
+
+<img src="./assets/group/setup.png" width="450">
+
+5. 成功添加后，就可以使用插件或其他方式去控制这个电机啦 🥰
+
+### 示例控制
+
+这里使用`滑块插件`来控制他
+
+1. **添加**或**使用已有**的滑块插件
+
+<img src="./assets/pwm/plugin-add.png" width="450">
+
+2. 进入插件设置，选择添加一个滑块，并选择我们刚刚添加的电机
+
+<img src="./assets/group/plugin-setup.png" width="450">
+
+3. 返回控制页面，找到添加的滑块插件就可以愉快的玩耍啦 ヾ(≧▽≦*)o
+
+<video src="./assets/group/control.mp4" controls autoplay loop width="450"></video>
+
 ## 配置
 
 - **名称*：** 名称
@@ -13,11 +60,6 @@
 - **是否反转：** 反转电机
 - **引脚...：** 连接驱动的引脚 (pwm和电平) (pwm输出引脚也可作为电平输出引脚使用)
 
-<br/>
-
-_配置页面_  
-![组合配置](./assets/group_list.png)  
-![组合配置](./assets/group.png)
 
 ## 类型
 
