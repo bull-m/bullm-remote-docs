@@ -13,7 +13,7 @@ outline: [2,3]
 - 前端与后端开发
 
 ### 💡 物联网开发定制
-- **ESP32 / ESP8266 / Arduino / ...**
+- **ESP32 / ESP8266 / Arduino**
 - **PlatformIO / ESP-IDF / Arduino**
 - 各类传感器和模块集成，pcb定制也没问题哦 (/≧▽≦)/
 

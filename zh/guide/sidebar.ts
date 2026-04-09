@@ -18,14 +18,13 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         {
             text: 'GoGoGo!!!', items: [
                 {text: '开始', link: 'start/start'},
-                {text: '系统架构', link: 'start/process'},
                 {text: '连接', link: 'start/link'},
+                {text: '系统架构', link: 'start/process'},
                 // {text: '互联网控制', link: 'start/internet'},
             ]
         },
         {
             text: '输入输出', items: [
-                {text: '基础架构', link: 'io/framework'},
                 {text: 'I2C扩展板', link: 'io/extend'},
                 {text: 'PWM', link: 'io/pwm'},
                 {text: '电平', link: 'io/digital'},
