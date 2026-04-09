@@ -21,7 +21,7 @@
 | [键盘控制 (Keyboard)](./built-in/keyboard.md) | 使用电脑键盘按键控制小车移动、云台旋转，支持急行与缓行模式。 |
 | [信号状态 (Signal)](./built-in/signal.md) | 实时展示小车连接状态、图传画面帧率 (FPS) 及网络丢包率。 |
 | [滑块 (Slider)](./built-in/slider.md) | 提供可自定义的滑动条，用于精确、无级调节小车设备（如舵机角度、灯光亮度）。 |
-| [开关按钮 (Switch)](./built-in/switch.md) | 提供二态图标开关，用于在设备的“开”与“关”两种状态之间快速切换。 |
+| [开关按钮 (Switch)](./built-in/switch-button.md) | 提供二态图标开关，用于在设备的“开”与“关”两种状态之间快速切换。 |
 | [按钮 (Button)](./built-in/button.md) | 提供一键触发按钮，点击后让指定设备瞬间到达你预设的目标状态。 |
 
 ## 开发自己的插件
