@@ -18,7 +18,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         {
             text: "内置插件",
             items: [
-                {text: '实时视频 (Live)', link: 'built-in/live'},
+                {text: '图传 (Live)', link: 'built-in/live'},
                 {text: '摇杆控制 (Nipple)', link: 'built-in/nipple'},
                 {text: '手柄控制 (Gamepad)', link: 'built-in/gamepad'},
                 {text: '键盘控制 (Keyboard)', link: 'built-in/keyboard'},
